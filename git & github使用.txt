@@ -9,7 +9,8 @@ Git
 	3.git status  :查看此專案狀態 (可隨時確認狀態) Repository
 	4.資料備妥後
 	5.git add .  :專案資料加入 (加入追蹤清單)
-	6.git commit -m “....註解,版本資訊...."   ← 版本紀錄
+	6.git commit -->編輯  [:q 離開]
+	  git commit -m “....註解,版本資訊...."   ← 版本紀錄
 	7.git branch 查看分支
 	8.git log  :檢查專案更新資訊  (按 Q 離開)
 
@@ -25,8 +26,8 @@ GitHub 上傳 GitHub 專案空間
           ex:網址==> https://github.com/chingan-github/Ching_Test.git ==>(遠端名稱) 加入
 
 	7.git push (遠端名稱)  空間分支(master)  :上傳資料
-          第一次使用時用 git push origin master push -u, 之後只需打 git push 即可,因為 -u
- 	  表示已設成預設
+          第一次使用時用 git push -u origin master 
+ 	  之後只需打 git push 即可,因為 -u 表示已設成預設
 	  ------------------------------------------------------------------------------
 	8.git clone (遠端網址)  (本機資料匣名稱)  : 第一次下載 
 	9.git pull  (遠端空間名稱)  空間分支(master)  :下載資料
